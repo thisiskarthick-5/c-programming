@@ -1,11 +1,15 @@
-//going to write the program for sum of two number 
-/*hi i am karthick */
+//comment line used to explain a code  - single line comment
+/* mutline comment*/
 
-#include <stdio.h> //preprocessor section
+#include <stdio.h> //prepocessor command 
+int age,fav; //global variable
 
-int n1,n1;
-
-int main(){
-    printf("%d",n1+n2);
+int main(){ 
+    //main function
+    int age,fav;
+    age = 10;
+    fav = 50;
+    printf("the sum is : %d",age+fav);
+    return 0;
 }
 
