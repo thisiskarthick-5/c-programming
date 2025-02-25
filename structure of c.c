@@ -1,15 +1,11 @@
-//comment line used to explain a code  - single line comment
-/* mutline comment*/
+//going to write the program for sum of two number 
+/*hi i am karthick */
 
-#include <stdio.h> //prepocessor command 
-int age,fav; //global variable
+#include <stdio.h> //preprocessor section
 
-int main(){ 
-    //main function
-    int age,fav;
-    age = 10;
-    fav = 50;
-    printf("the sum is : %d",age+fav);
-    return 0;
+int n1,n1;
+
+int main(){
+    printf("%d",n1+n2);
 }
 
