@@ -2,7 +2,6 @@
 int binary(int arr[10], int size , int target){
     int left = 0;
     int right = size-1;
-    
     while(left<=right){
         int mid = left + (right - left)/2;
         if (arr[mid] == target){
@@ -15,8 +14,7 @@ int binary(int arr[10], int size , int target){
             right = mid-1;
         }
     }
-    return -1;
-    
+    return -1; 
 }
 
 int main(){
